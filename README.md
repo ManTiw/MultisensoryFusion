@@ -45,10 +45,23 @@ This is implemented using **Streamlit** as a web interface and supports real-tim
 ---
 
 ## 📂 Project Structure
-├── app.py # Main Streamlit interface
-├── gpt2_model.py # GPT-2 logic for text/story generation
-├── stable_diffusion_v1_5.py # Text-to-image with Stable Diffusion 1.5
-├── stable_diffusion_v2_0.py # Text-to-image with Stable Diffusion 2.0
-├── openjourney_model.py # Artistic image generation with OpenJourney
-├── requirements.txt # Python dependencies
-└── README.md # Project overview (this file)
+```plaintext
+AI-Driven-Multisensory-Fusion/
+├── app.py                         # Main Streamlit UI for selecting models and inputs
+├── gpt2_model.py                  # GPT-2 model for text/story generation
+├── stable_diffusion_v1_5.py       # (Optional) Stable Diffusion v1.5 for realistic image generation
+├── stable_diffusion_v2_0.py       # Stable Diffusion v2.0 for high-quality image generation
+├── openjourney_model.py           # Artistic image generation using OpenJourney
+├── requirements.txt               # List of Python dependencies
+├── README.md                      # Project overview and documentation
+├── outputs/                       # Folder for storing generated outputs (images/text) [optional]
+│   ├── images/
+│   └── stories/
+├── audio/                         # Uploaded or recorded audio files [temporary]
+├── utils/                         # Utility scripts (e.g., file handlers, helper functions) [optional]
+├── assets/                        # Static assets like screenshots, logos (used in README or app)
+├── test/                          # Testing scripts or mock data for UAT/QA
+│   └── test_cases.md
+└── appendix/                      # Reports, documentation, or user manual
+    ├── report.docx
+    └── plagiarism_certificate.pdf
