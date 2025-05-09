@@ -1,6 +1,3 @@
-# MultisensoryFusion
-A Dynamic integragration of various AI's in a single software.
-
 # AI-Driven Multisensory Fusion
 
 ## 🎯 Project Overview
@@ -48,4 +45,10 @@ This is implemented using **Streamlit** as a web interface and supports real-tim
 ---
 
 ## 📂 Project Structure
-
+├── app.py # Main Streamlit interface
+├── gpt2_model.py # GPT-2 logic for text/story generation
+├── stable_diffusion_v1_5.py # Text-to-image with Stable Diffusion 1.5
+├── stable_diffusion_v2_0.py # Text-to-image with Stable Diffusion 2.0
+├── openjourney_model.py # Artistic image generation with OpenJourney
+├── requirements.txt # Python dependencies
+└── README.md # Project overview (this file)
